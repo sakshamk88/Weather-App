@@ -19,6 +19,7 @@ document.getElementById("chk-wthr").addEventListener("click", (e) => {
           message.innerHTML = data.error;
         } else {
           console.log(data);
+
           message.innerHTML = data.forecast;
         }
       });
