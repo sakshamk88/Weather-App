@@ -9,7 +9,7 @@ document.getElementById("chk-wthr").addEventListener("click", (e) => {
   if (!address.value) {
     message.innerHTML = "You must enter some address first.";
   } else {
-    url = "http://localhost:3000/weather?address=" + location;
+    url = "/weather?address=" + location;
 
     fetch(url).then((response) => {
       response.json().then((data) => {
