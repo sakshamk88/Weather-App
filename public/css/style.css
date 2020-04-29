@@ -26,3 +26,8 @@ footer {
 .msgFont {
   font-size: 22px;
 }
+
+.fig {
+  height: 350px;
+  width: 400px;
+}
