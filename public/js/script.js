@@ -1,6 +1,7 @@
 const address = document.getElementById("location");
 const message = document.getElementById("message");
 
+//The function fetches the weather for the user input location
 document.getElementById("chk-wthr").addEventListener("click", (e) => {
   e.preventDefault();
   message.innerHTML = "Processing...";
