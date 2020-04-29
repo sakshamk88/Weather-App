@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+footer {
+  margin-top: 200px;
+}
+
+.parallax {
+  background: url("../img/weather.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 600px;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.inner-box {
+  padding-top: 125px;
+}
+.msgFont {
+  font-size: 22px;
+}
