@@ -1,7 +1,6 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js"
@@ -13,5 +12,15 @@
     "handlebars": "^4.7.6",
     "hbs": "^4.1.1",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshamk88/Weather-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sakshamk88/Weather-App/issues"
+  },
+  "homepage": "https://github.com/sakshamk88/Weather-App#readme",
+  "description": ""
 }
